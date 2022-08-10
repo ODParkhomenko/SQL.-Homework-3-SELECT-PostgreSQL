@@ -223,46 +223,46 @@ Insert into Genres (id_genre, genre_name) values (8, N'metalcore');
 
 
 
-Insert into Artists_Genres(id_artist, id_genre) values (1, 1);
-Insert into Artists_Genres(id_artist, id_genre) values (1, 2);
-Insert into Artists_Genres(id_artist, id_genre) values (1, 3);
-Insert into Artists_Genres(id_artist, id_genre) values (2, 4);
-Insert into Artists_Genres(id_artist, id_genre) values (2, 5);
-Insert into Artists_Genres(id_artist, id_genre) values (3, 4);
-Insert into Artists_Genres(id_artist, id_genre) values (3, 6);
-Insert into Artists_Genres(id_artist, id_genre) values (4, 4);
-Insert into Artists_Genres(id_artist, id_genre) values (5, 7);
-Insert into Artists_Genres(id_artist, id_genre) values (6, 3);
-Insert into Artists_Genres(id_artist, id_genre) values (6, 8);
-Insert into Artists_Genres(id_artist, id_genre) values (7, 7);
-Insert into Artists_Genres(id_artist, id_genre) values (7, 3);
-Insert into Artists_Genres(id_artist, id_genre) values (8, 4);
-Insert into Artists_Genres(id_artist, id_genre) values (8, 5);
-Insert into Artists_Genres(id_artist, id_genre) values (9, 1);
-Insert into Artists_Genres(id_artist, id_genre) values (9, 2);
-Insert into Artists_Genres(id_artist, id_genre) values (9, 3);
-Insert into Artists_Genres(id_artist, id_genre) values (9, 8);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (1, 1);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (1, 2);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (1, 3);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (2, 4);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (2, 5);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (3, 4);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (3, 6);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (4, 4);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (5, 7);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (6, 3);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (6, 8);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (7, 7);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (7, 3);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (8, 4);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (8, 5);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (9, 1);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (9, 2);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (9, 3);
+Insert into Artists_Genres(id_artist_ag, id_genre_ag) values (9, 8);
 
 
 
-Insert into Artists_Album(id_artist, id_album) values (1, 1);
-Insert into Artists_Album(id_artist, id_album) values (1, 2);
-Insert into Artists_Album(id_artist, id_album) values (2, 3);
-Insert into Artists_Album(id_artist, id_album) values (2, 4);
-Insert into Artists_Album(id_artist, id_album) values (3, 5);
-Insert into Artists_Album(id_artist, id_album) values (3, 6);
-Insert into Artists_Album(id_artist, id_album) values (4, 7);
-Insert into Artists_Album(id_artist, id_album) values (4, 8);
-Insert into Artists_Album(id_artist, id_album) values (5, 9);
-Insert into Artists_Album(id_artist, id_album) values (5, 10);
-Insert into Artists_Album(id_artist, id_album) values (6, 11);
-Insert into Artists_Album(id_artist, id_album) values (6, 12);
-Insert into Artists_Album(id_artist, id_album) values (7, 13);
-Insert into Artists_Album(id_artist, id_album) values (7, 14);
-Insert into Artists_Album(id_artist, id_album) values (8, 15);
-Insert into Artists_Album(id_artist, id_album) values (8, 16);
-Insert into Artists_Album(id_artist, id_album) values (9, 17);
-Insert into Artists_Album(id_artist, id_album) values (9, 18);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (1, 1);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (1, 2);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (2, 3);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (2, 4);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (3, 5);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (3, 6);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (4, 7);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (4, 8);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (5, 9);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (5, 10);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (6, 11);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (6, 12);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (7, 13);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (7, 14);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (8, 15);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (8, 16);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (9, 17);
+Insert into Artists_Album(id_artist_aa, id_album_aa) values (9, 18);
 
 
 
@@ -276,34 +276,33 @@ Insert into Сollections(id_collection, collection_title, collection_date) value
 
 	
 	
-Insert into Collection_Tracks(id_collection, id_track) values (1, 1);
-Insert into Collection_Tracks(id_collection, id_track) values (1, 5);
-Insert into Collection_Tracks(id_collection, id_track) values (1, 10);
-Insert into Collection_Tracks(id_collection, id_track) values (1, 15);
-Insert into Collection_Tracks(id_collection, id_track) values (2, 20);
-Insert into Collection_Tracks(id_collection, id_track) values (2, 25);
-Insert into Collection_Tracks(id_collection, id_track) values (2, 30);
-Insert into Collection_Tracks(id_collection, id_track) values (2, 35);
-Insert into Collection_Tracks(id_collection, id_track) values (3, 40);
-Insert into Collection_Tracks(id_collection, id_track) values (3, 45);
-Insert into Collection_Tracks(id_collection, id_track) values (3, 50);
-Insert into Collection_Tracks(id_collection, id_track) values (3, 55);
-Insert into Collection_Tracks(id_collection, id_track) values (4, 60);
-Insert into Collection_Tracks(id_collection, id_track) values (4, 65);
-Insert into Collection_Tracks(id_collection, id_track) values (4, 70);
-Insert into Collection_Tracks(id_collection, id_track) values (4, 75);
-Insert into Collection_Tracks(id_collection, id_track) values (5, 80);
-Insert into Collection_Tracks(id_collection, id_track) values (5, 85);
-Insert into Collection_Tracks(id_collection, id_track) values (5, 90);
-Insert into Collection_Tracks(id_collection, id_track) values (5, 95);
-Insert into Collection_Tracks(id_collection, id_track) values (6, 100);
-Insert into Collection_Tracks(id_collection, id_track) values (6, 105);
-Insert into Collection_Tracks(id_collection, id_track) values (6, 110);
-Insert into Collection_Tracks(id_collection, id_track) values (6, 115);
-Insert into Collection_Tracks(id_collection, id_track) values (7, 120);
-Insert into Collection_Tracks(id_collection, id_track) values (7, 125);
-Insert into Collection_Tracks(id_collection, id_track) values (7, 130);
-Insert into Collection_Tracks(id_collection, id_track) values (7, 135);
-
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (1, 1);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (1, 5);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (1, 10);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (1, 15);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (2, 20);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (2, 25);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (2, 30);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (2, 35);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (3, 40);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (3, 45);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (3, 50);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (3, 55);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (4, 60);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (4, 65);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (4, 70);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (4, 75);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (5, 80);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (5, 85);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (5, 90);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (5, 95);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (6, 100);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (6, 105);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (6, 110);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (6, 115);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (7, 120);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (7, 125);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (7, 130);
+Insert into Collection_Tracks(id_collection_ct, id_track_ct) values (7, 135);
 
 
